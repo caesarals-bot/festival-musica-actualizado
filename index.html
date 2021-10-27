@@ -7,7 +7,7 @@
     <title>Rock & EDM Festival</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./build/css/app.css">
 </head>
 <body>
@@ -22,11 +22,33 @@
             </nav>
         </div>
     </header>
-    <video autoplay muted loop>
-        <source src="video/concierto.mp4" type="video/mp4">
-        <source src="video/concierto.ogg" type="video/ogg">
-        <source src="video/concierto.webm" type="video/webm">
-    </video>
+
+    <div class="video">
+
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <H2>Rock & EDM Festival</H2>
+                <p>Julio 2022, Guadalajara, México.</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+        
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <img src="./img/imagen_vocalista.jpg" alt="imagen vocalista">
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">Julio 2022, Guadalajara, México</p>
+            <p>Nunc quis auctor massa, eget varius erat. Nunc nec dignissim sem. Cras tortor est, eleifend et massa sit amet, dapibus porttitor velit.  </p>
+        </div>
+    </section>
     
 
 </body>
